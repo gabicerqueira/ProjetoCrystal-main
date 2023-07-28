@@ -14,6 +14,10 @@ img{
     height: auto;
 }
 
+#header{
+    position: fixed;
+    width: 100%;
+}
 
 #header, 
 #footer {
@@ -83,12 +87,18 @@ img{
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 70px;
 }
+
 
 .plano{
     background-color: #edeced;
     text-align: center;
     margin: 0 40px;
+}
+
+.plano-itens{
+    margin-top: 20px;
 }
 
 .plano-tipo,
@@ -100,19 +110,19 @@ img{
 
 .beneficio{
     font: 500 20px 'Lucida', sans-serif;
-    padding: 0 20px;
+    padding: 8px 20px;
 }
 
 .linha-la{
     background-color: #f6a256;
-    height: 20px;
-    margin: 20px 0;
+    height: 40px;
+    margin: 0px 0;
 }
 
 .linha-le{
     background-color: #ff912d;
-    height: 20px;
-    margin: 20px 0;
+    height: 40px;
+    margin: 0px 0;
 }
 
 .conteudo .texto{
@@ -142,9 +152,18 @@ input{
 }
 
 #footer{
-    margin-top: 60px;
+    margin-top: 110px;
 }
 
 .basico{
     color: #787878;
 }
+
+#planos{
+    margin-top: 150px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
